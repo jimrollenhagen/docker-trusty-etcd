@@ -16,7 +16,7 @@ FROM jayofdoom/docker-ubuntu-14.04
 MAINTAINER jim.rollenhagen@rackspace.com
 
 RUN apt-get update
-RUN apt-get install -y curl git
+RUN apt-get install -y curl
 
 # grab etcd
 ENV ETCD_VERSION v0.2.0-rc3
